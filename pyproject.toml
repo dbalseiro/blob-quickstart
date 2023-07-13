@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "blob-quickstart"
+version = "0.1.0"
+description = "Azure Blob Storage Test App"
+authors = ["Diego Balseiro <dbalseiro@stackbuilders.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+azure-identity = "^1.13.0"
+azure-storage-blob = "^12.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
